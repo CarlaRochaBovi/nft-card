@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+main {
+    display: flex;
+    align-items: center; 
+}
+
+#app {
+    border-radius: 20px;
+    height: fit-content;
+    width: 364px;;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    background: hsl(216, 50%, 16%);
+}
+
+#app div:nth-child(2) {
+}
+
+#app div:nth-child(3) .product-info + .user {
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+#app div:nth-child(3) {
+    width: 100%;
+}
+
+.product-info  {
+    margin-block: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-info div {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.price {
+    text-align: left;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.time {
+    font-size: 14px;
+}
+
+.nft {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    transition: .3s all;
+}
+
+.user {
+    font-weight: 300;
+    display: flex;
+    align-items: center;    
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.user div {
+    gap: 5px;
+    display: flex;
+}
+
+.user-img {
+    width: 32px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.avatar-name {
+    color: white;
+}
+
+h4 {
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin-block: 16px;
+    transition: .3s all;
+}
+
+h4:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: hsl(215, 51%, 70%);
+}
